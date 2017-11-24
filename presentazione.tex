@@ -1,0 +1,100 @@
+\documentclass[11pt,svgnames,smaller]{beamer}
+
+\usepackage{CommandsAndStyle}
+
+\usepackage{listings}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{subfig}
+\usepackage{xcolor}
+\usepackage{textpos}
+\usepackage{transparent}
+\usepackage{tikz}
+
+
+\newcommand{\fsamp}{\textsc{F-samp}\xspace}
+\newcommand{\base}{\textsc{base}\xspace}
+\newcommand{\fcount}{\textsc{F-count}\xspace}
+\mode<presentation>
+
+\author{Gaspare Ferraro}
+
+\author[Gaspare Ferraro]{\includegraphics[height=2cm]{images/cherubino}\\Gaspare Ferraro\\ \vspace{10pt} \small{Relatori\\ Roberto Grossi \\ Andrea Marino}}
+\institute[Università di Pisa]{Università di Pisa}
+
+
+\title{Similarità di sottografi nelle reti complesse}
+\date{Pisa, 1 dicembre 2017}
+\titlegraphic{\vfill}
+% \includegraphics[height=0.4cm]{images/creative_commons.png}}
+
+\setbeamercolor{title}{fg=black!65!black}
+
+% \author[Relatore]{Roberto Grossi}
+
+\begin{document}
+	
+	\begin{frame} 
+	\titlepage
+	\end{frame}
+				
+	\logo{\transparent{0.4}\includegraphics[height=2cm]{images/cherubino}}
+		
+%	\addtobeamertemplate{frametitle}{}{%
+%		\begin{textblock*}{100mm}(\textwidth-1.5cm,0cm)
+%			\includegraphics[height=1cm,width=1cm]{images/cherubino}
+%		\end{textblock*}
+%	}
+
+	\section{Reti complesse}
+	
+	\begin{frame}
+		\frametitle{Slide 1}
+					
+	\end{frame}
+
+
+\section{Reti complesse}
+
+	\begin{frame}
+		
+		\frametitle{Slide 1}
+		
+		\begin{table}[ht]
+			\centering
+			\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+				\cline{3-11}
+				\multicolumn{2}{c|}{} & \multicolumn{3}{c|}{\fcount} & \multicolumn{3}{c|}{\fsamp} & \multicolumn{3}{c|}{\base}\\
+				\hline	
+				$q$ & $\epsilon$ & $r$ & T    & VAR      & $r$ & T    & VAR      & $r$ & T   & VAR      \\ \hline
+				$3$ & $0.20$     & $2$  & $1$  & $0.0725$ & $400$     & $1$  & $0.1194$ & $420$     & $1$ & $0.1150$ \\ \hline
+				$3$ & $0.10$     & $3$  & $1$  & $0.0692$ & $1\,000$  & $1$  & $0.0601$ & $900$     & $1$ & $0.1338$ \\ \hline
+				$3$ & $0.05$     & $4$  & $1$  & $0.0535$ & $3\,200$  & $1$  & $0.0273$ & $1\,500$  & $1$ & $0.1025$ \\ \hline
+				\hline
+				$4$ & $0.20$     & $3$  & $2$  & $0.0677$ & $1\,300$  & $1$  & $0.1194$ & $1\,300$  & $1$ & $0.2424$ \\ \hline
+				$4$ & $0.10$     & $5$  & $4$  & $0.0532$ & $3\,200$  & $2$  & $0.0992$ & $2\,500$  & $2$ & $0.1806$ \\ \hline
+				$4$ & $0.05$     & $10$ & $8$  & $0.0518$ & $8\,000$  & $4$  & $0.0612$ & $7\,900$  & $3$ & $0.1081$ \\ \hline
+				\hline
+				$5$ & $0.20$     & $5$  & $6$  & $0.0511$ & $5\,000$  & $4$  & $0.1678$ & $6\,000$  & $3$ & $0.2234$ \\ \hline
+				$5$ & $0.10$     & $10$ & $18$ & $0.0370$ & $20\,000$ & $12$ & $0.0745$ & $30\,000$ & $8$ & $0.1234$ \\ \hline
+				$5$ & $0.05$     & $20$ & $58$ & $0.0204$ & $80\,000$ & $30$ & $0.0376$ & $/$       & $/$ & $/$      \\ \hline
+			\end{tabular}
+			\caption{ Dataset NetInf, $|A| = |B| = 100$, $T = $ average running time, VAR $ = $ variance of solutions}
+		\end{table}
+	
+	\end{frame}
+
+	
+	\section{Fine}
+	
+	\begin{frame}
+		
+		\frametitle{Fine}
+		\centering
+		\Large
+		Grazie per la Vostra attenzione
+			
+ 	\end{frame}
+	%	\include{./tex/MST_Kruskal}
+
+\end{document}

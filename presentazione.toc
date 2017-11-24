@@ -1,0 +1,5 @@
+\select@language {italian}
+\select@language {italian}
+\beamer@sectionintoc {1}{Reti complesse}{2}{0}{1}
+\beamer@sectionintoc {2}{Reti complesse}{3}{0}{2}
+\beamer@sectionintoc {3}{Fine}{4}{0}{3}

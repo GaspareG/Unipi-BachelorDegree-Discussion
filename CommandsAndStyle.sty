@@ -1,0 +1,170 @@
+
+\ProvidesPackage{CommandsAndStyle}
+\usefonttheme[onlymath]{serif}
+% \setbeamersize{text margin left=1em,text margin right=1em}
+
+\usepackage[utf8]{inputenc}
+\usepackage{default}
+\usepackage[italian]{babel}
+\usepackage{lmodern}
+\usepackage{geometry} %top,bottom,left,right are margins
+\usepackage{graphicx}
+\usepackage{hyperref} %References become hyperlinks.
+\usepackage[normalem]{ulem}
+\hypersetup{
+	colorlinks = true,
+	linkcolor = {black},
+	urlcolor = {gray},
+	citecolor = {gray}
+}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{esint} %For the average integral
+\usepackage{mathrsfs} %Just for cool sigma-algebra
+\usepackage{color}
+\usepackage{array}
+\usepackage{hhline}
+\usepackage{xparse} %In order to use ExplSyntax (in older latex versions)
+\usepackage{mathtools}
+\usepackage{ifthen} %Ifthen construct
+\usepackage{forloop} %forloop construct
+\usepackage{xstring}
+\usepackage{blindtext} %lorem ipsum generator (doesn't support italian and therefore gives some warnings)
+
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{latexsym}
+\usepackage{graphicx} % [demo] is just for the example
+\usepackage{wrapfig}
+
+\usepackage{indentfirst}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+
+\usepackage[nameinlink]{cleveref} %References show what kind of thing is being referenced (theorem, lemma, proposition...)
+\newcommand{\crefpairconjunction}{ e }
+\newcommand{\crefrangepreconjunction}{da }
+\newcommand{\crefrangeconjunction}{ a }
+\newcommand{\creflastconjunction}{ e }
+
+\newcounter{Results}[section] %Uniform counters for lemmas, theorems, propositions etc
+\renewcommand{\theResults}{\thesection.\arabic{Results}}
+
+% %Definition of theorem-like environments
+
+% \def\th@definizione{%
+%     \normalfont % body font
+%     \setbeamercolor{block title example}{bg=green!30,fg=green}
+%     \setbeamercolor{block body example}{bg=green!20,fg=black}
+%     \def\inserttheoremblockenv{exampleblock}
+%   }
+% \makeatother
+
+\def\th@nota{%
+    \normalfont % body font
+    \setbeamercolor{block title example}{bg=white,fg=red}
+    \setbeamercolor{block body example}{bg=white,fg=black}
+    \def\inserttheoremblockenv{exampleblock}
+  }
+\makeatother
+
+
+\newtheorem{teorema}{Teorema}
+\newtheorem{lem}{Lemma}
+\newtheorem{proposizione}{Proposizione}
+\newtheorem{corollario}{Corollario}
+\newtheorem{esercizio}{Esercizio}
+
+\newtheorem*{problema}{Problema}
+
+\theoremstyle{nota}
+\newtheorem{nota}{Osservazione}
+
+\theoremstyle{definition}
+\newtheorem{definizione}{Definizione}
+\newtheorem*{esempio}{Esempio}
+
+
+\newcommand{\bigO}{\ensuremath{\mathcal{O}}}
+\newcommand{\smallO}{\ensuremath{\mathrm{o}}}
+
+
+%Punteggiatura nelle formule
+\ifdefined\virgola 
+	\renewcommand{\virgola}{\ensuremath{\, \text{, }}}
+\else 
+	\newcommand{\virgola}{\ensuremath{\, \text{, }}}
+\fi
+\newcommand{\puntovirgola}{\ensuremath{\, \text{; }}}
+\newcommand{\punto}{\ensuremath{\, \text{. }}}
+
+
+%Pacchetti per tikz
+\usepackage{pgf,tikz}
+\tikzset{
+	MyPersp/.style={scale=1.8,x={(-0.8cm,-0.4cm)},y={(0.8cm,-0.4cm)},
+    z={(0cm,1cm)}},
+	MyPoints/.style={fill=white,draw=black,thick}
+		}
+		
+\usetikzlibrary{arrows.meta}
+
+\usepackage{xcolor} %Serve ad avere per esempio gray
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+\usepackage{textcomp}
+
+\usepackage{asymptote}
+
+
+\usetheme{Berlin}
+\usecolortheme{dolphin}
+
+\useinnertheme{circles}
+\useoutertheme{infolines}
+
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+\setbeamercolor{section in head/foot}{fg=white}
+
+\setbeamertemplate{headline}
+{
+  \leavevmode%
+  \hbox{%%
+  \begin{beamercolorbox}[wd=.8\paperwidth,ht=2.65ex,dp=1.5ex,right]{section in head/foot}%
+    \usebeamerfont{section in head/foot}\insertsubsectionhead\hspace*{2ex}
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.2\paperwidth,ht=2.65ex,dp=1.5ex,left]{subsection in head/foot}%
+    \usebeamerfont{subsection in head/foot}\hspace*{2ex}\insertsectionhead
+  \end{beamercolorbox}}%
+% 	}
+  \vskip0pt%
+}
+
+\makeatletter
+\providecommand{\leftsquigarrow}{%
+  \mathrel{\mathpalette\reflect@squig\relax}%
+}
+
+\newcommand{\reflect@squig}[2]{%
+  \reflectbox{$\m@th#1\rightsquigarrow$}%
+}
+\makeatother
+
+
+\usepackage{soul}
+
+\usepackage{listings}
+\lstset{language=C++,
+        basicstyle=\scriptsize\ttfamily,
+        keywordstyle=\color{MidnightBlue}\ttfamily,
+        stringstyle=\color{orange}\ttfamily,
+        commentstyle=\color{red}\ttfamily,
+        morecomment=[l][\color{ForestGreen}]{\#},
+        numbers=left,
+        numbersep=5pt,
+        numberstyle=\tiny\color{gray},
+        showspaces=false,
+        showstringspaces=false,
+        tabsize=3,
+        xleftmargin=2em,
+}
