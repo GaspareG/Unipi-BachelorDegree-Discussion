@@ -1,5 +1,6 @@
 \select@language {italian}
 \select@language {italian}
-\beamer@sectionintoc {1}{Reti complesse}{2}{0}{1}
-\beamer@sectionintoc {2}{Reti complesse}{3}{0}{2}
-\beamer@sectionintoc {3}{Fine}{4}{0}{3}
+\beamer@sectionintoc {1}{Il problema}{2}{0}{1}
+\beamer@sectionintoc {2}{Approcci di risoluzione}{9}{0}{2}
+\beamer@sectionintoc {3}{Risultati pratici}{16}{0}{3}
+\beamer@sectionintoc {4}{Fine}{21}{0}{4}

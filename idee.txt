@@ -1,27 +1,21 @@
-01. 
-02. 
-03. 
-04. 
-05. 
-06. 
-07. 
-08. 
-09. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
+*Il problema*
+01. Reti complesse
+02. Gradi di separazione (scelta del parametro q)
+03. grafi etichettati e q-grammi 
+04. Indici di similarità Bray-Curtis / Frequency Jaccard
+05. Definizione del problema
+06. Applicazioni pratiche (esempi con NetInf, IMDb)
 
+*Approcci di risoluzione*
+07. Ricerca esaustiva e problemi
+08. Color-Coding (Ridurre i path da V^q a (2^q)*V)
+09. Sketch / Sampling (Ridurre i q-grammi da Sigma^q a R)
+10. F-Count
+11. Problemi F-Count e approssimazione F-Samp
+12. Baseline
 
-ColorCoding
-Sketches
-
-Grafico Parallelizzazione
-
+*Risultati pratici*
+13. Preprocessing (Tempo/Spazio Dinamica Color-Coding)
+14. Prestazioni Query
+15. Tabella errore fissato (Trade-off Tempo/Precisione tra Fcount-F-Samp)
+16. Tabella ego-network attori
