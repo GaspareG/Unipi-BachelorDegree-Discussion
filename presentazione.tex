@@ -12,6 +12,10 @@
 \usepackage{tikz}
 \usepackage{epigraph}
 
+\usepackage{array, makecell} %
+
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}% redefines the caption setup of the figures environment in the beamer class.
 
 \newcommand{\fsamp}{\textsc{F-samp}\xspace}
 \newcommand{\base}{\textsc{base}\xspace}
@@ -20,7 +24,7 @@
 
 \author{Gaspare Ferraro}
 
-\author[Gaspare Ferraro]{\includegraphics[height=2cm]{images/cherubino}\\Gaspare Ferraro\\ \vspace{10pt} \small{Relatori\\ Roberto Grossi, Andrea Marino}}
+\author[Gaspare Ferraro]{\includegraphics[height=2cm]{images/cherubino}\\Gaspare Ferraro\\ \vspace{10pt} \small{Relatori\\ prof. Roberto Grossi\\prof. Andrea Marino}}
 \institute[Università di Pisa]{Università di Pisa\\Dipartimento di Informatica}
 
 \setbeamertemplate{section page}
@@ -59,7 +63,7 @@
 		\frametitle{Fine}
 		\centering
 		\Large
-		Grazie per la Vostra attenzione
+		Grazie per l'attenzione
  	\end{frame}
  
 

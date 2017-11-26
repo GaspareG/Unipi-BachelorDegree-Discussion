@@ -1,18 +1,87 @@
 \section{Risultati pratici}
 
 \begin{frame}
+	\Large
 	\sectionpage
 	\centering
 \end{frame}
 
 \begin{frame}
-	\frametitle{Preprocessing}
+	\frametitle{Color Coding}
 	\centering
+	\Large
+	Tempi di esecuzione e memoria occupata
+	
+	\small
+	\begin{figure}[h]
+		\centering
+		\begin{minipage}[ht]{.49\textwidth}
+			\centering
+			\begin{table}
+				\centering
+				\begin{tabular}{|c|c|c|c|}
+					\hline
+					\textsc{Dataset} & $q$  &               Tempo & Memoria \\ \hline \hline
+					\textsc{NetInf}  & $13$ & \phantom{11}$0.39$s & \phantom{1}$11.20$MiB     \\ \hline
+					\textsc{NetInf}  & $14$ & \phantom{11}$0.81$s & \phantom{1}$22.63$MiB     \\ \hline
+					\textsc{NetInf}  & $15$ & \phantom{11}$1.66$s & \phantom{1}$45.21$MiB     \\ \hline
+					\textsc{NetInf}  & $16$ & \phantom{11}$3.47$s & \phantom{1}$90.93$MiB     \\ \hline \hline
+					\textsc{IMDb}    & $3$  & \phantom{1}$48.22$s & \phantom{1}$17.94$MiB     \\ \hline
+					\textsc{IMDb}    & $4$  &           $105.94$s & \phantom{1}$34.91$MiB     \\ \hline
+					\textsc{IMDb}    & $5$  &           $241.22$s & \phantom{1}$69.01$MiB     \\ \hline
+					\textsc{IMDb}    & $6$  &           $557.48$s & $137.26$MiB     \\ \hline
+				\end{tabular}
+			\end{table}
+		\end{minipage}
+		%\pause
+		\begin{minipage}[ht]{.49\textwidth}
+			\centering
+			\includegraphics[width=.9\textwidth]{images/3_color_coding}
+			\caption{Scalabilità al variare dei cores usati}
+		\end{minipage}
+	\end{figure}
+	
+%	Dimensione tabella 
+%	\begin{table}
+%		\centering
+%		\begin{tabular}{|c|c|c|}
+%			\hline
+%			\textsc{Dataset} & $q$  & Mem. \\ \hline \hline
+%			\textsc{IMDb}    & $3$  &  $17.94$MiB  \\ \hline % 34.91  / 3.49
+%			\textsc{IMDb}    & $4$  &  $34.91$MiB  \\ \hline % 34.91  / 3.49
+%			\textsc{IMDb}    & $5$  &  $69.01$MiB  \\ \hline % 69.01  / 8.62
+%			\textsc{IMDb}    & $6$  & $137.26$MiB  \\ \hline % 137.26 / 20.58
+%		\end{tabular}
+%	\end{table}
+	
 \end{frame}
 
 \begin{frame}
 	\frametitle{Query}
 	\centering
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|c|c|c|}
+			\cline{6-8}
+			\multicolumn{5}{c|}{} & \multicolumn{3}{c|}{Tempi (in ms)} \\ \hline
+			\textsc{Dataset} & $q$ & $|A|$ & $|B|$ & $r$      & \textsc{F-Count} 	& \textsc{F-Samp} & \textsc{Base} \\ \hline \hline
+			\textsc{NetInf}  & $3$ & $100$ & $100$ & $1\,000$ & $20$             	& $4$               & $2$           \\ \hline
+			\textsc{NetInf}  & $3$ & $100$ & $100$ & $5\,000$ & $60$             	& $30$              & $15$          \\ \hline \hline
+			\textsc{NetInf}  & $5$ & $100$ & $100$ & $1\,000$ & $2\,682$         	& $426$             & $3$           \\ \hline
+			\textsc{NetInf}  & $5$ & $100$ & $100$ & $5\,000$ & $4\,767$         	& $784$             & $20$          \\ \hline \hline
+			\textsc{NetInf}  & $7$ & $100$ & $100$ & $100$    & $5\,455$ 			& $4$               & $2$           \\ \hline
+			\textsc{NetInf}  & $7$ & $100$ & $100$ & $200$    & $16\,634$        	& $197$             & $2$           \\ \hline \hline
+			\textsc{IMDb}    & $3$ & $10$  & $10$  & $100$    & $5\,035$         	& $66$              & $1$           \\ \hline
+			\textsc{IMDb}    & $4$ & $10$  & $10$  & $100$    & $/$              	& $443$             & $8$           \\ \hline
+			\textsc{IMDb}    & $5$ & $10$  & $10$  & $100$    & $/$              	& $781$             & $12$          \\ \hline
+			\textsc{IMDb}    & $6$ & $10$  & $10$  & $100$    & $/$              	& $1\,379$          & $14$          \\ \hline
+		\end{tabular}
+		\medskip
+		
+		Tempi per il calcolo dell'indice di Bray-Curtis
+		
+		$r =$ Dimensione del campione
+	\end{table}
 \end{frame}
 
 \definecolor{green}{RGB}{0,200,83}
@@ -22,8 +91,10 @@
 \begin{frame}
 	\frametitle{$\epsilon$-approssimazione}
 	\centering
+	
+	Confronto a parità di livello di approssimazione $\epsilon$
 	\begin{table}[ht]
-		\centering
+	%	\centering
 		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
 			\cline{3-11}
 			\multicolumn{2}{c|}{} & \multicolumn{3}{c|}{\fcount} & \multicolumn{3}{c|}{\fsamp} & \multicolumn{3}{c|}{\base}\\
@@ -41,18 +112,34 @@
 			$5$ & $0.10$     & \color{green}$10$ & $18$ & $0.0370$ & \color{orange}$20\,000$ & $12$ & $0.0745$ & \color{   red}$30\,000$ & $8$ & $0.1234$ \\ \hline
 			$5$ & $0.05$     & \color{green}$20$ & $58$ & $0.0204$ & \color{orange}$80\,000$ & $30$ & $0.0376$ & \color{   red}$/$       & $/$ & $/$      \\ \hline
 		\end{tabular}
-		\caption{Dataset $\textsc{NetInf}$, indice Bray-Curtis, Dimensione sottografi $|A| = |B| = 100$, $T = $ Tempo medio elaborazione, $VAR = $ Varianza indici}
+		
+		\medskip
+			Dati riferiti all'indice di Bray-Curtis su $\textsc{NetInf}$
+		\small
+		\begin{flushleft}
+		
+		
+			Dimensione sottografi $|A| = |B| = 100$
+		
+			$r =$ Dimensione del campione
+		
+			$T = $ Tempo medio elaborazione (in millisecondi)
+		
+			$VAR = $ Varianza indici
+		
+		
+		\end{flushleft}
+
 	\end{table}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Similarità tra attori}
-	
+	\frametitle{Nella pratica}
 	\centering
 	\begin{table}[h]
 		\centering
 		\begin{tabular}{c|c|l|l}
-			Actor/actress  & Actor/actress   & BC index & FJ index \\ 
+			Attore/Attrice & Attore/Attrice  & BC index & FJ index \\ 
 			\hline
 			Stan Laurel    & Oliver Hardy    & 0.936167 & 0.774053 \\
 			Robert De Niro & Al Pacino       & 0.730935 & 0.231474 \\
@@ -60,8 +147,94 @@
 			Meryl Streep   & Roberto Benigni & 0.482909 & 0.160181 \\
 			%\hline
 		\end{tabular}
-		\caption{Dataset: \textsc{IMDb}, Confronto indici tra coppie di ego-network di attori famosi}
+		\medskip
+		
+		$\textsc{IMDb}$, Similarità tra ego-network di attori famosi (F-Samp)
 	\end{table}
 
-	
+
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{c|c|l|l}
+			Sito           & Sito            & BC index & FJ index \\ 
+			\hline
+			Stan Laurel    & Oliver Hardy    & 0.936167 & 0.774053 \\
+			Robert De Niro & Al Pacino       & 0.730935 & 0.231474 \\
+			Woody Allen    & Meryl Streep    & 0.556071 & 0.222857 \\
+			Meryl Streep   & Roberto Benigni & 0.482909 & 0.160181 \\
+			%\hline
+		\end{tabular}
+		\medskip
+		
+		$\textsc{NetInf}$, Similarità tra siti di informazione (F-Samp)
+	\end{table}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Conclusioni}
+	\centering
+	\begin{figure}[h]
+		\begin{minipage}[t]{.32\textwidth}
+			\centering
+			\Large
+			F-Count
+			\medskip
+
+			\small		
+			\textbf{Pro}:
+			\begin{itemize}
+				\item Accurato anche con campioni di piccole dimensioni
+				\item Varianza ridotta
+			\end{itemize}
+		
+			\textbf{Contro}:
+			\begin{itemize}
+				\item Lento su grafi di elevate dimensioni
+				\item Preprocessing grafo (una volta sola)
+			\end{itemize}
+		\end{minipage}\hfill
+		%\pause
+		\begin{minipage}[t]{.32\textwidth}
+			\centering
+			\Large
+			F-Samp
+			\medskip
+			
+			\small		
+			\textbf{Pro}:
+			\begin{itemize}
+				\item Efficiente anche in grafi di elevate dimensioni
+				\item Varianza ridotta
+			\end{itemize}
+			
+			\textbf{Contro}:
+			\begin{itemize}
+				\item Necessita di campioni di grandi dimensioni
+				\item Preprocessing grafo (una volta sola)
+			\end{itemize}
+		\end{minipage}\hfill
+		%\pause
+		\begin{minipage}[t]{.32\textwidth}
+			\centering
+			\Large
+			Base
+			\medskip
+			
+			\small		
+			\textbf{Pro}:
+			\begin{itemize}
+				\item Efficiente anche in gradi di elevate dimensioni
+%				\item 
+			\end{itemize}
+			
+			\textbf{Contro}:
+			\begin{itemize}
+				\item Varianza elevata
+				\item Necessita di campioni di grandi dimensioni
+%				\item Preprocessing grafo (una 
+			\end{itemize}
+		\end{minipage}\hfill
+		
+	\end{figure}
 \end{frame}

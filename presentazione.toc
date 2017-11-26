@@ -3,4 +3,4 @@
 \beamer@sectionintoc {1}{Il problema}{2}{0}{1}
 \beamer@sectionintoc {2}{Approcci di risoluzione}{9}{0}{2}
 \beamer@sectionintoc {3}{Risultati pratici}{16}{0}{3}
-\beamer@sectionintoc {4}{Fine}{21}{0}{4}
+\beamer@sectionintoc {4}{Fine}{22}{0}{4}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  25 NOV 2017 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  26 NOV 2017 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1755,51 +1755,61 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \epigraphwidth=\skip97
 \epigraphrule=\skip98
 )
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen337
+\c@nlinenum=\count381
+\TeXr@lab=\toks69
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 23.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 23.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 23.
+(hyperref)                removing `\new@ifnextchar' on input line 27.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 23.
+(hyperref)                removing `\\' on input line 27.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 23.
+(hyperref)                removing `\\' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\new@ifnextchar' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 27.
 
 (./presentazione.aux (./1_problema.aux) (./2_soluzioni.aux) (./3_risultati.aux)
 )
 \openout1 = `presentazione.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 44.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 48.
 
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
@@ -1841,17 +1851,17 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count381
-\scratchdimen=\dimen337
+\scratchcounter=\count382
+\scratchdimen=\dimen338
 \scratchbox=\box93
-\nofMPsegments=\count382
-\nofMParguments=\count383
-\everyMPshowfont=\toks69
-\MPscratchCnt=\count384
-\MPscratchDim=\dimen338
-\MPnumerator=\count385
-\makeMPintoPDFobject=\count386
-\everyMPtoPDFconversion=\toks70
+\nofMPsegments=\count383
+\nofMParguments=\count384
+\everyMPshowfont=\toks70
+\MPscratchCnt=\count385
+\MPscratchDim=\dimen339
+\MPnumerator=\count386
+\makeMPintoPDFobject=\count387
+\everyMPtoPDFconversion=\toks71
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1871,7 +1881,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box94
-Package hyperref Info: Link coloring ON on input line 44.
+Package hyperref Info: Link coloring ON on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1879,11 +1889,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count387
+\c@section@level=\count388
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
 
 (./presentazione.out) (./presentazione.out)
 \@outlinefile=\write8
@@ -1914,8 +1924,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \it@ocap on input line 44.
-LaTeX Info: Redefining \it@ccap on input line 44.
+LaTeX Info: Redefining \it@ocap on input line 48.
+LaTeX Info: Redefining \it@ccap on input line 48.
 
 
 File italian.ldf warning: 
@@ -1923,9 +1933,9 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 44.
+italian.ldf    on input line 48.
 
-\c@lstlisting=\count388
+\c@lstlisting=\count389
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1933,10 +1943,10 @@ Package caption Info: End \AtBeginDocument code.
 <images/cherubino.pdf, id=30, pagebox=cropbox, 215.37015pt x 219.64056pt>
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 48. on input 
-line 48.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
-8.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 52. on input 
+line 52.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 5
+2.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/cherubino.pdf>]
@@ -1963,132 +1973,140 @@ Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 39.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 38.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <9> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 38.
 <images/facebook.png, id=123, 784.8522pt x 401.3394pt>
 File: images/facebook.png Graphic file (type png)
 <use images/facebook.png>
-Package pdftex.def Info: images/facebook.png  used on input line 39. on input l
-ine 39.
+Package pdftex.def Info: images/facebook.png  used on input line 38. on input l
+ine 38.
 Package pdftex.def Info: Requested size: 151.7908pt x 77.61479pt on input line 
-39.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 39.
+38.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 38.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 39.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 38.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 38.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 39.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 38.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 39.
+(Font)              <9> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 39.
+(Font)              <6> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 39.
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+(Font)              <5> on input line 38.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+esint on input line 39.
+LaTeX Font Info:    Try loading font information for U+esint on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 39.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 39.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 39.
 <images/2_kevin_bacon.png, id=124, 481.3182pt x 276.5532pt>
 File: images/2_kevin_bacon.png Graphic file (type png)
 <use images/2_kevin_bacon.png>
-Package pdftex.def Info: images/2_kevin_bacon.png  used on input line 39. on in
-put line 39.
+Package pdftex.def Info: images/2_kevin_bacon.png  used on input line 38. on in
+put line 38.
 Package pdftex.def Info: Requested size: 151.7908pt x 87.21176pt on input line 
-39.
-
-Overfull \vbox (1.08969pt too high) detected at line 39
- []
-
+38.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 39. on input 
-line 39.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 38. on input 
+line 38.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 3
-9.
-[4
+8.
+ [4
 
  <./images/facebook.png (PNG copy)> <./images/2_kevin_bacon.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 44.
+(Font)              <14.4> on input line 43.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 44.
+(Font)              <10> on input line 43.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 44.
+(Font)              <7> on input line 43.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 44. on input 
-line 44.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 43. on input 
+line 43.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
-4.
+3.
  [5
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 49. on input 
-line 49.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 48. on input 
+line 48.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
-9.
-
-[6
+8.
+ [6
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 54. on input 
-line 54.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 53. on input 
+line 53.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 5
-4.
+3.
  [7
 
 ]
+<images/4_netinf.jpg, id=241, 812.03375pt x 512.91624pt>
+File: images/4_netinf.jpg Graphic file (type jpg)
+<use images/4_netinf.jpg>
+Package pdftex.def Info: images/4_netinf.jpg  used on input line 73. on input l
+ine 73.
+Package pdftex.def Info: Requested size: 151.7908pt x 95.87415pt on input line 
+73.
+File: images/2_kevin_bacon.png Graphic file (type png)
+<use images/2_kevin_bacon.png>
+Package pdftex.def Info: images/2_kevin_bacon.png  used on input line 73. on in
+put line 73.
+Package pdftex.def Info: Requested size: 151.7908pt x 87.21176pt on input line 
+73.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 59. on input 
-line 59.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 5
-9.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 73. on input 
+line 73.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 7
+3.
  [8
 
-])
+ <./images/4_netinf.jpg>])
 \openout2 = `./2_soluzioni.aux'.
 
  (./2_soluzioni.tex
@@ -2103,22 +2121,19 @@ Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 6
 
 
 ]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 11. on input 
-line 11.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-1.
- [10
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 16.
 
-]
+ (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
 Package pdftex.def Info: images/cherubino.pdf  used on input line 16. on input 
 line 16.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
 6.
- [11
+
+[10
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
@@ -2127,7 +2142,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 21. on input
 line 21.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
 1.
- [12
+ [11
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
@@ -2136,7 +2151,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 26. on input
 line 26.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
 6.
- [13
+ [12
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
@@ -2145,7 +2160,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 31. on input
 line 31.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 3
 1.
- [14
+ [13
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
@@ -2154,75 +2169,99 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 36. on input
 line 36.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 3
 6.
+ [14
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 41. on input 
+line 41.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
+1.
  [15
 
 ])
 \openout2 = `./3_risultati.aux'.
 
-
-(./3_risultati.tex
+ (./3_risultati.tex
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 6. on input l
-ine 6.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 6
+Package pdftex.def Info: images/cherubino.pdf  used on input line 7. on input l
+ine 7.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 7
 .
  [16
 
 
 
 ]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 11. on input 
-line 11.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-1.
- [17
-
-]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 16. on input 
-line 16.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-6.
- [18
-
-]
-
-LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 46.
-
 
 LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <9> not available
-(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 46.
+(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 57.
+
+<images/3_color_coding.pdf, id=497, pagebox=cropbox, 401.9517pt x 225.84375pt>
+File: images/3_color_coding.pdf Graphic file (type pdf)
+<use images/3_color_coding.pdf>
+Package pdftex.def Info: images/3_color_coding.pdf  used on input line 57. on i
+nput line 57.
+Package pdftex.def Info: Requested size: 151.7908pt x 85.28735pt on input line 
+57.
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 57. on input 
+line 57.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 5
+7.
+[17
+
+ <./images/3_color_coding.pdf>]
+
+LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <10> not available
+(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 85.
 
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 46. on input 
-line 46.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
-6.
-[19
+Package pdftex.def Info: images/cherubino.pdf  used on input line 85. on input 
+line 85.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 8
+5.
+[18
 
 ]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 134. on input
+ line 134.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
+34.
+ [19
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 172. on input
+ line 172.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
+72.
+ [20
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 240. on input
+ line 240.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+40.
+ [21
+
+])
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
 Package pdftex.def Info: images/cherubino.pdf  used on input line 67. on input 
 line 67.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 6
 7.
- [20
-
-])
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 63. on input 
-line 63.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 6
-3.
- [21
+ [22
 
 
 ]
@@ -2235,38 +2274,45 @@ Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 6
 \tf@snm=\write11
 \openout11 = `presentazione.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
- (./presentazione.aux (./1_problema.aux) (./2_soluzioni.aux)
-(./3_risultati.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+ (./presentazione.aux (./1_problema.aux)
+(./2_soluzioni.aux) (./3_risultati.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `presentazione.out' has not changed.
 (rerunfilecheck)             Checksum: 1F3C741789F39226F86DC2ED61818692;195.
  ) 
 Here is how much of TeX's memory you used:
- 36796 strings out of 492990
- 713160 string characters out of 6135004
- 825136 words of memory out of 5000000
- 39566 multiletter control sequences out of 15000+600000
- 592784 words of font info for 86 fonts, out of 8000000 for 9000
+ 37019 strings out of 492990
+ 716508 string characters out of 6135004
+ 831987 words of memory out of 5000000
+ 39775 multiletter control sequences out of 15000+600000
+ 593156 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,17n,69p,10387b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/
-lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmsso9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on presentazione.pdf (21 pages, 1285730 bytes).
+ 56i,17n,69p,10387b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/sha
+re/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
+lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+mi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lms
+sbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmsso9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
+Output written on presentazione.pdf (22 pages, 1481537 bytes).
 PDF statistics:
- 688 PDF objects out of 1000 (max. 8388607)
- 634 compressed objects within 7 object streams
- 47 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 759 PDF objects out of 1000 (max. 8388607)
+ 694 compressed objects within 7 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
