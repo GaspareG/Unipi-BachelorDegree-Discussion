@@ -39,7 +39,7 @@ pair[] f={
 };
 
 //scale(Linear,Log);
-draw(graph(f),"$\textsc{IMDB}$ q=3", marker(scale(1.5mm)*polygon(5),green,FillDraw(green),above=false));
+draw(graph(f),"$\textsc{IMDB}$ q=3", marker(scale(1.5mm)*polygon(4),green,FillDraw(green),above=false));
 
 
 // frame mark;
@@ -54,7 +54,7 @@ pair[] f2={
 };
 
 //scale(Linear,Log);
-draw(graph(f2),"$\textsc{IMDB}$ q=4", marker(scale(1.5mm)*polygon(4),red,FillDraw(red),above=false));
+draw(graph(f2),"$\textsc{IMDB}$ q=4", marker(scale(1.5mm)*polygon(3),red,FillDraw(red),above=false));
 
 xaxis("Cores",BottomTop,LeftTicks(DefaultFormat,new real[] {3, 6, 12, 24}));
 
