@@ -10,6 +10,7 @@
 	\centering
 	\Large
 	Tempi di esecuzione e memoria occupata
+	\pause
 	
 	\small
 	\begin{figure}[h]
@@ -32,26 +33,13 @@
 				\end{tabular}
 			\end{table}
 		\end{minipage}
-		%\pause
+		\pause
 		\begin{minipage}[ht]{.49\textwidth}
 			\centering
 			\includegraphics[width=.9\textwidth]{images/3_color_coding}
 			\caption{Scalabilità al variare dei cores usati}
 		\end{minipage}
 	\end{figure}
-	
-%	Dimensione tabella 
-%	\begin{table}
-%		\centering
-%		\begin{tabular}{|c|c|c|}
-%			\hline
-%			\textsc{Dataset} & $q$  & Mem. \\ \hline \hline
-%			\textsc{IMDb}    & $3$  &  $17.94$MiB  \\ \hline % 34.91  / 3.49
-%			\textsc{IMDb}    & $4$  &  $34.91$MiB  \\ \hline % 34.91  / 3.49
-%			\textsc{IMDb}    & $5$  &  $69.01$MiB  \\ \hline % 69.01  / 8.62
-%			\textsc{IMDb}    & $6$  & $137.26$MiB  \\ \hline % 137.26 / 20.58
-%		\end{tabular}
-%	\end{table}
 	
 \end{frame}
 
@@ -134,6 +122,9 @@
 
 \begin{frame}
 	\frametitle{Nella pratica}
+	
+	\pause
+	
 	\centering
 	\begin{table}[h]
 		\centering
@@ -151,6 +142,7 @@
 		$\textsc{IMDb}$, Similarità tra ego-network di attori famosi (F-Samp)
 	\end{table}
 
+	\pause
 
 	\begin{table}[h]
 		\centering
@@ -173,6 +165,9 @@
 \begin{frame}
 	\frametitle{Conclusioni}
 	\centering
+
+	\pause
+	
 	\begin{figure}[h]
 		\begin{minipage}[t]{.32\textwidth}
 			\centering
@@ -193,7 +188,7 @@
 				\item Preprocessing grafo (una volta sola)
 			\end{itemize}
 		\end{minipage}\hfill
-		%\pause
+		\pause
 		\begin{minipage}[t]{.32\textwidth}
 			\centering
 			\Large
@@ -213,7 +208,7 @@
 				\item Preprocessing grafo (una volta sola)
 			\end{itemize}
 		\end{minipage}\hfill
-		%\pause
+		\pause
 		\begin{minipage}[t]{.32\textwidth}
 			\centering
 			\Large
