@@ -164,11 +164,11 @@
 	Estendiamo i due indici ai $q$-grammi:
 
 	\begin{equation*}\label{jaccard-sub}	
-		J(A,B) = \frac{|A \cap B|}{|A \cup B|} \implies J(A,B) = \frac{ \Sigma_{x \in \Sigma^{q}} \min(f_{A}[x], f_{B}[x]) }{ \Sigma_{x \in \Sigma^{q}} f_{A \cup B}[x] }
+		J(A,B) = \frac{|A \cap B|}{|A \cup B|} \implies J(A,B) = \frac{ \Sigma_{w \in \Sigma^{q}} \min(f_{A}[w], f_{B}[w]) }{ \Sigma_{w \in \Sigma^{q}} f_{A \cup B}[w] }
 	\end{equation*}
 
 	\begin{equation*}\label{bray-sub}
-		BC(A,B) = \frac{2 \times |A \cap B|}{|A| + |B|} \implies BC(A,B) = \frac{ 2 \times \Sigma_{x \in \Sigma^{q}} \min(f_{A}[x], f_{B}[x]) }{ \Sigma_{x \in \Sigma^{q}} (f_{A}[x] + f_{B}[x]) }
+		BC(A,B) = \frac{2 \times |A \cap B|}{|A| + |B|} \implies BC(A,B) = \frac{ 2 \times \Sigma_{w \in \Sigma^{q}} \min(f_{A}[w], f_{B}[w]) }{ \Sigma_{w \in \Sigma^{q}} (f_{A}[w] + f_{B}[w]) }
 	\end{equation*}
 	
 \end{frame}
