@@ -103,23 +103,23 @@ int[] mappa = { 0, 1, 2, 3, 4, 5 };
 // colori degli archi
 pen[]  colE = {
 
-    green+1,
-    green+1,
+    orange+2,
+    orange+2,
     grey+1,
-    green+1,
-    green+1,
+    orange+2,
+    orange+2,
 
-    green+1,
+    purple+2,
     grey+1,
     grey+1,
-    green+1,
+    purple+2,
     grey+1,
 
-    green+1,
+    green+2,
     grey+1,
-    green+1,
-    green+1,
-    green+1,
+    green+2,
+    green+2,
+    green+2,
 
     grey+1,
     grey+1,

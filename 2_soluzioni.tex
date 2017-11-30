@@ -29,13 +29,13 @@
 	\medskip
 	\textbf{Problema!}
 	
-	Limitare la ricerca mantenendo inalterato il valore di similarità
+	Limitare la ricerca approssimando il valore di similarità
 	
 	\pause
 	
 	\begin{itemize}
 		\item Tempo: $O(|V|^q)$ $\rightarrow$ Color Coding $\rightarrow$ $O(2^q\ |V|)$
-		\item Spazio: $O(|\Sigma|^q\ q)$ $\rightarrow$ Sampling $\rightarrow$ $O(rq)$
+		\item Spazio: $O(|\Sigma|^q\ q)$ $\rightarrow$ Sampling $\rightarrow$ $O(rq)$ per un certo $r \ll |\Sigma|^q$
 	\end{itemize}
 	
 	
@@ -43,7 +43,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Color Coding}
+	\frametitle{preprocessing: Color Coding}
 	\centering
 
 	\pause
@@ -116,14 +116,21 @@
 		$|w| = |\Sigma|^q$ (tutti i $q$-grammi)
 		\medskip		 
 		 
-		$\Sigma_w{f_X[w]} = |V|^q$ (tutti i $q$-path)
+		$\Sigma_w{f_X[w]} = O(|V|^q)$ (tutti i $q$-path)
 		
 		
 	\end{minipage}\hfill
 	\pause
 	\begin{minipage}{.45\textwidth}
 		\centering
-		Riduciamo le dimensioni della tabella \textbf{campionando uniformemente} $r$ colorful $q$-path distinti.\medskip
+		
+		\small
+		
+		Riduciamo le dimensioni della tabella \textbf{campionando} alcuni $q$-grammi $w$ con probabilità proporzionale a $f_X[w]$.\medskip
+		
+		\pause
+		
+		Questo campionamento viene effettuato \textbf{campionando uniformemente} $r$ colorful $q$-path distinti.\medskip
 		
 		Definiamo quindi:
 		
@@ -145,9 +152,10 @@
 	
 	\textbf{Bray-Curtis}: campionamento con $X = A \uplus B$
 	
-	
-	
 \end{frame}
+
+
+\definecolor{RoyalPurple}{rgb}{0.39, 0.19, 0.59}
 
 \begin{frame}
 	\frametitle{Esempio di sampling}
@@ -159,9 +167,13 @@
 	
 	\medskip
 	
-	R = \{ \color{green} 4-2-1 \color{darkgreen} 10-9-1  \color{green} 8-7-0 \color{darkgreen} 16-13-12  \color{green} 7-14-12 \color{black}\}
+	Campione dei $3$-path 
 	
-	$\mathcal{W} = $ \{ acb, bba, bca \}
+	R = \{ \color{orange} 4-2-1 \color{black}, \color{RoyalPurple} 8-7-0 \color{black}, \color{orange} 10-9-1\color{black}, \color{green} 16-13-12\color{black},  \color{green} 17-14-12 \color{black}\}
+	
+	Insieme corrispondente dei $3$-grammi 
+	
+	$\mathcal{W} = $ \{ \color{green} acb\color{black}, \color{orange}bba\color{black}, \color{RoyalPurple} bca \color{black} \}
 	
 	
 \end{frame}
@@ -177,27 +189,27 @@ approssimiamo i due indici limitandoci al campione
 \pause
 
 \begin{equation*}\label{jaccard-sub}	
-J(A,B) = \frac{ \Sigma_{x \in \Sigma^{q}} \min(f_{A}[x], f_{B}[x]) }{ \Sigma_{x \in \Sigma^{q}} f_{A \cup B}[x] }
+J(A,B) = \frac{ \Sigma_{w \in \color{red}\Sigma^{q}\color{black}} \min(f_{A}[w], f_{B}[w]) }{ \Sigma_{w \in \color{red}\Sigma^{q}\color{black}} f_{A \cup B}[w] }
 \end{equation*}
 $\downarrow$
 \begin{equation*}\label{jaccard-sub}	
-J_{\mathcal{W}}(A,B) = \frac{ \Sigma_{x \in \mathcal{W}} \min(f_{A}[x], f_{B}[x]) }{ \Sigma_{x \in \mathcal{W}} f_{A \cup B}[x] }
+J_{\mathcal{W}}(A,B) = \frac{ \Sigma_{w \in \color{green}\mathcal{W}\color{black}} \min(f_{A}[w], f_{B}[w]) }{ \Sigma_{w \in \color{green}\mathcal{W}\color{black}} f_{A \cup B}[w] }
 \end{equation*}
 
 \pause
 
 \begin{equation*}\label{bray-sub}
-BC(A,B) = \frac{ 2 \times \Sigma_{x \in \Sigma^{q}} \min(f_{A}[x], f_{B}[x]) }{ \Sigma_{x \in \Sigma^{q}} (f_{A}[x] + f_{B}[x]) }
+BC(A,B) = \frac{ 2 \times \Sigma_{w \in \color{red}\Sigma^{q}\color{black}} \min(f_{A}[w], f_{B}[w]) }{ \Sigma_{w \in \color{red}\Sigma^{q}\color{black}} (f_{A}[w] + f_{B}[w]) }
 \end{equation*}
 $\downarrow$
 \begin{equation*}\label{bray-sub}
-BC_{\mathcal{W}}(A,B) = \frac{ 2 \times \Sigma_{x \in \mathcal{W}} \min(f_{A}[x], f_{B}[x]) }{ \Sigma_{x \in \mathcal{W}} (f_{A}[x] + f_{B}[x]) }
+BC_{\mathcal{W}}(A,B) = \frac{ 2 \times \Sigma_{w \in \color{green}\mathcal{W}\color{black}} \min(f_{A}[w], f_{B}[w]) }{ \Sigma_{w \in \color{green}\mathcal{W}\color{black}} (f_{A}[w] + f_{B}[w]) }
 \end{equation*}
 
 \end{frame}
 
 \begin{frame}
-	\frametitle{F-Count e F-Samp}
+	\frametitle{query: F-Count e F-Samp}
 	\centering
 	
 	Come calcoliamo $f_A[w]$ e $f_B[w]$ per $w \in \mathcal{W}$?\medskip

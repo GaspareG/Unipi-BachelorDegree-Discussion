@@ -13,7 +13,7 @@
 		\begin{flushleft}
 			Grafi con caratteristiche topologiche non banali che occorrono modellando 
 			
-			sistemi reali (quali social network, reti neurali, computer network, ...).
+			sistemi reali (quali social network, computer network, collaboration network...).
 		\end{flushleft}
 		\medskip
 		
@@ -85,7 +85,7 @@
 	\end{flushright}
 	
 	\centering
-	\textit{Analizzare non il solo nodo, ma anche la sua interfaccia verso l'esterno!}\\
+	\textit{Analizzare non solo l'insieme dei nodi, ma anche la loro interfaccia verso l'esterno!}\\
 	
 	\pause
 	
@@ -116,10 +116,9 @@
 			
 			\textbf{Esempio} $3$-grammi che terminano in $0$:
 			\begin{itemize}
-				\item $(2-1-0)$: \color{red}cba \color{black}
-				\item $(4-3-0)$: \color{green}bca \color{black}
-				\item $(6-5-0)$: \color{violet}aca \color{black}
-				\item $(8-7-0)$: \color{orange}baa \color{black}
+				\item cba: (\color{red} 2-1-0\color{black})
+				\item bca: (\color{green}4-3-0 \color{black}, \color{orange}8-7-0\color{black})
+				\item aca: (\color{violet}6-5-0\color{black})
 			\end{itemize}
 		\end{minipage}
 	\end{figure}
@@ -127,6 +126,8 @@
 	
 \end{frame}
 
+
+\definecolor{RoyalPurple}{rgb}{0.39, 0.19, 0.59}
 
 \begin{frame}
 	\frametitle{Frequenze dei $q$-grammi}
@@ -144,9 +145,9 @@
 	Dato $X = \{0, 1\}$ e $q=3$ abbiamo:
 	\centering
 	\begin{itemize}
-		\item $f_X[bba] = 3$ (path: 4-2-1, 6-5-0, 10-9-1).
-		\item $f_X[bca] = 1$ (path: 8-7-0).
-		\item $f_X[cba] = 2$ (path: 3-2-1, 11-9-1).
+		\item $f_X[bba] = 3$ (path: \color{red}4-2-1\color{black}, \color{red}6-5-0\color{black}, \color{red}10-9-1 \color{black}).
+		\item $f_X[bca] = 1$ (path: \color{RoyalPurple}8-7-0 \color{black}).
+		\item $f_X[cba] = 2$ (path: \color{green}3-2-1 \color{black}, \color{green}11-9-1 \color{black}).
 	\end{itemize}
 \end{frame}
 
@@ -160,9 +161,12 @@
 	\end{flushleft}
 
 	\pause
+	\small
+	
 			
-	Estendiamo i due indici ai $q$-grammi:
+	Estendiamo i due indici ai $q$-grammi, usando $f_A[w]$ e $f_B[w]$ per i $q$-grammi $w$ in $\Sigma^q$:
 
+	\pause 
 	\begin{equation*}\label{jaccard-sub}	
 		J(A,B) = \frac{|A \cap B|}{|A \cup B|} \implies J(A,B) = \frac{ \Sigma_{w \in \Sigma^{q}} \min(f_{A}[w], f_{B}[w]) }{ \Sigma_{w \in \Sigma^{q}} f_{A \cup B}[w] }
 	\end{equation*}
@@ -173,6 +177,36 @@
 	
 \end{frame}
 
+\begin{frame}
+	\frametitle{Esempio calcolo Bray-Curtis}
+	\centering
+	\small
+	
+	Similarità secondo Bray-Curtis tra gli insiemi $A = \{0\}$ e $B = \{1\}$ usando i $3$-grammi 
+	\includegraphics[width=0.4\textwidth]{images/13_bc}
+	\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		w   & $f_A[w]$ & $f_B[w]$ & $min(f_A[w], f_B[w])$ & $f_A[w] + f_B[x]$ \\ 
+		\hline
+		bba & 1 & 2 & 1 & 3 \\
+		\hline
+		bca & 1 & 0 & 0 & 1 \\
+		\hline
+		cba & 0 & 2 & 0 & 2 \\
+		\hline
+		\multicolumn{3}{|c|}{Totale} & \color{green}1 &\color{RoyalPurple}6\color{black} \\
+		\hline
+		%\hline
+	\end{tabular}
+	\end{table}
+
+	\begin{equation*}
+		BC(A,B) = \frac{ 2 \times \Sigma_{w \in \Sigma^{q}} \min(f_{A}[w], f_{B}[w]) }{ \Sigma_{w \in \Sigma^{q}} (f_{A}[w] + f_{B}[w]) } = \frac{2 \times \color{green}1}{\color{RoyalPurple}6\color{black}} = \frac{1}{3}
+	\end{equation*}
+	
+\end{frame}
 \begin{frame}
 	\frametitle{Applicazioni pratiche}
 	
@@ -196,4 +230,46 @@
 			\caption{Interazione tra i film con attori in comune\\ \textit{Fonte: IMDb}}
 		\end{minipage}
 	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Esempi di similarità}
+	
+	\pause
+	
+	\centering
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{c|c|l|l}
+			Attore/Attrice & Attore/Attrice  & BC index & J index \\ 
+			\hline
+			Stan Laurel    & Oliver Hardy    & 0.936167 & 0.774053 \\
+			Robert De Niro & Al Pacino       & 0.730935 & 0.231474 \\
+			Woody Allen    & Meryl Streep    & 0.556071 & 0.222857 \\
+			Meryl Streep   & Roberto Benigni & 0.482909 & 0.160181 \\
+			%\hline
+		\end{tabular}
+		\medskip
+		
+		$\textsc{IMDb}$, Similarità tra ego-network di attori famosi
+	\end{table}
+	
+	\pause
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{c|c|l|l}
+			Sito           & Sito            & BC index & J index \\ 
+			\hline
+			nytimes.com  & huffpost.com       & 0.760524 & 0.388977 \\
+			nytimes.com  & washingtonpost.com & 0.732766 & 0.366383 \\
+			nytimes.com  & sportingnews.com   & 0.330400 & 0.166200\\
+			nytimes.com  & rollingstone.com   & 0.056660 & 0.034336 \\
+			%\hline
+		\end{tabular}
+		\medskip
+		
+		$\textsc{NetInf}$, Similarità tra siti di informazione
+	\end{table}
+	
 \end{frame}

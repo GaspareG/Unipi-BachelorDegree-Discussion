@@ -54,14 +54,14 @@ int[][] E = {
 int[] mappa = { 0, 1, 2, 3, 4, 5 };
 // colori degli archi
 pen[]  colE = {
-    red+1, red+1,
-    green+1, green+1,
-    purple+1, purple+1,
-    orange+1, orange+1,
+    red+2, red+2,
+    green+2, green+2,
+    purple+2, purple+2,
+    orange+2, orange+2,
 };
 
 // label 
-string C[] = {"a","b","c","c","b","c","a","a","b"};
+string C[] = {"a","b","c","c","b","c","a","c","b"};
 
 for (int i=0; i<9; ++i)
   label(C[i],P[i],4*pos[i]);

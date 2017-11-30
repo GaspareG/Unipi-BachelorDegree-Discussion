@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  30 NOV 2017 00:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  30 NOV 2017 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1763,27 +1763,27 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 32.
+(hyperref)                removing `\new@ifnextchar' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 32.
+(hyperref)                removing `\\' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 32.
+(hyperref)                removing `\\' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 32.
+(hyperref)                removing `\new@ifnextchar' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 32.
+(hyperref)                removing `\\' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 32.
+(hyperref)                removing `\\' on input line 31.
 
 (./presentazione.aux (./1_problema.aux) (./2_soluzioni.aux
 
@@ -1813,28 +1813,28 @@ LaTeX Warning: Label `bray-sub@cref' multiply defined.
 ) (./3_risultati.aux) (./4_extra.aux))
 \openout1 = `presentazione.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 53.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 52.
 
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
@@ -1906,7 +1906,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box94
-Package hyperref Info: Link coloring ON on input line 53.
+Package hyperref Info: Link coloring ON on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1916,9 +1916,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count388
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
 
 (./presentazione.out) (./presentazione.out)
 \@outlinefile=\write8
@@ -1949,8 +1949,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \it@ocap on input line 53.
-LaTeX Info: Redefining \it@ccap on input line 53.
+LaTeX Info: Redefining \it@ocap on input line 52.
+LaTeX Info: Redefining \it@ccap on input line 52.
 
 
 File italian.ldf warning: 
@@ -1958,7 +1958,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 53.
+italian.ldf    on input line 52.
 
 \c@lstlisting=\count389
 Package caption Info: Begin \AtBeginDocument code.
@@ -1968,10 +1968,10 @@ Package caption Info: End \AtBeginDocument code.
 <images/cherubino.pdf, id=30, pagebox=cropbox, 215.37015pt x 219.64056pt>
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 57. on input 
-line 57.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 56. on input 
+line 56.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 5
-7.
+6.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/cherubino.pdf>]
@@ -2196,224 +2196,279 @@ Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 7
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 128.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 127.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 128.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 127.
 
 <images/11_labeled.pdf, id=298, pagebox=cropbox, 137.577pt x 153.84477pt>
 File: images/11_labeled.pdf Graphic file (type pdf)
 <use images/11_labeled.pdf>
-Package pdftex.def Info: images/11_labeled.pdf  used on input line 128. on inpu
-t line 128.
+Package pdftex.def Info: images/11_labeled.pdf  used on input line 127. on inpu
+t line 127.
 Package pdftex.def Info: Requested size: 84.3288pt x 94.30292pt on input line 1
-28.
+27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 128.
+(Font)              <10> on input line 127.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 128.
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 128
+(Font)              <7> on input line 127.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 127
 .
  (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 128.
+(Font)              <14.4> on input line 127.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 128. on input
- line 128.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 127. on input
+ line 127.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-28.
+27.
  [10
 
  <./images/11_labeled.pdf>]
 File: images/11_labeled.pdf Graphic file (type pdf)
 <use images/11_labeled.pdf>
-Package pdftex.def Info: images/11_labeled.pdf  used on input line 128. on inpu
-t line 128.
+Package pdftex.def Info: images/11_labeled.pdf  used on input line 127. on inpu
+t line 127.
 Package pdftex.def Info: Requested size: 84.3288pt x 94.30292pt on input line 1
-28.
+27.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 128. on input
- line 128.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 127. on input
+ line 127.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-28.
+27.
  [11
 
 ]
 File: images/11_labeled.pdf Graphic file (type pdf)
 <use images/11_labeled.pdf>
-Package pdftex.def Info: images/11_labeled.pdf  used on input line 128. on inpu
-t line 128.
+Package pdftex.def Info: images/11_labeled.pdf  used on input line 127. on inpu
+t line 127.
 Package pdftex.def Info: Requested size: 84.3288pt x 94.30292pt on input line 1
-28.
+27.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 128. on input
- line 128.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 127. on input
+ line 127.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-28.
+27.
  [12
 
 ]
 File: images/11_labeled.pdf Graphic file (type pdf)
 <use images/11_labeled.pdf>
-Package pdftex.def Info: images/11_labeled.pdf  used on input line 128. on inpu
-t line 128.
+Package pdftex.def Info: images/11_labeled.pdf  used on input line 127. on inpu
+t line 127.
 Package pdftex.def Info: Requested size: 84.3288pt x 94.30292pt on input line 1
-28.
+27.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 128. on input
- line 128.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 127. on input
+ line 127.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-28.
+27.
  [13
 
 ]
 File: images/11_labeled.pdf Graphic file (type pdf)
 <use images/11_labeled.pdf>
-Package pdftex.def Info: images/11_labeled.pdf  used on input line 128. on inpu
-t line 128.
+Package pdftex.def Info: images/11_labeled.pdf  used on input line 127. on inpu
+t line 127.
 Package pdftex.def Info: Requested size: 84.3288pt x 94.30292pt on input line 1
-28.
+27.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 128. on input
- line 128.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 127. on input
+ line 127.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-28.
+27.
  [14
 
 ]
 <images/12_freq.pdf, id=446, pagebox=cropbox, 194.48257pt x 141.39224pt>
 File: images/12_freq.pdf Graphic file (type pdf)
 <use images/12_freq.pdf>
-Package pdftex.def Info: images/12_freq.pdf  used on input line 151. on input l
-ine 151.
+Package pdftex.def Info: images/12_freq.pdf  used on input line 152. on input l
+ine 152.
 Package pdftex.def Info: Requested size: 137.67603pt x 100.09792pt on input lin
-e 151.
+e 152.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 151. on input
- line 151.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 152. on input
+ line 152.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-51.
+52.
  [15
 
  <./images/12_freq.pdf>]
 File: images/12_freq.pdf Graphic file (type pdf)
 <use images/12_freq.pdf>
-Package pdftex.def Info: images/12_freq.pdf  used on input line 151. on input l
-ine 151.
+Package pdftex.def Info: images/12_freq.pdf  used on input line 152. on input l
+ine 152.
 Package pdftex.def Info: Requested size: 137.67603pt x 100.09792pt on input lin
-e 151.
+e 152.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 151. on input
- line 151.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 152. on input
+ line 152.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-51.
+52.
  [16
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 174. on input
- line 174.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 178. on input
+ line 178.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-74.
+78.
  [17
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 174. on input
- line 174.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 178. on input
+ line 178.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-74.
+78.
  [18
 
 ]
-<images/4_netinf.jpg, id=568, 812.03375pt x 512.91624pt>
-File: images/4_netinf.jpg Graphic file (type jpg)
-<use images/4_netinf.jpg>
-Package pdftex.def Info: images/4_netinf.jpg  used on input line 199. on input 
-line 199.
-Package pdftex.def Info: Requested size: 151.7908pt x 95.87415pt on input line 
-199.
-<images/6_imdb.png, id=569, 748.7975pt x 583.17876pt>
-File: images/6_imdb.png Graphic file (type png)
-<use images/6_imdb.png>
-Package pdftex.def Info: images/6_imdb.png  used on input line 199. on input li
-ne 199.
-Package pdftex.def Info: Requested size: 151.7908pt x 118.21762pt on input line
- 199.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 199. on input
- line 199.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 178. on input
+ line 178.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-99.
+78.
 
 [19
+
+]
+<images/13_bc.pdf, id=595, pagebox=cropbox, 194.48257pt x 141.39224pt>
+File: images/13_bc.pdf Graphic file (type pdf)
+<use images/13_bc.pdf>
+Package pdftex.def Info: images/13_bc.pdf  used on input line 209. on input lin
+e 209.
+Package pdftex.def Info: Requested size: 137.67603pt x 100.09792pt on input lin
+e 209.
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 209. on input
+ line 209.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+09.
+ [20
+
+ <./images/13_bc.pdf>]
+<images/4_netinf.jpg, id=629, 812.03375pt x 512.91624pt>
+File: images/4_netinf.jpg Graphic file (type jpg)
+<use images/4_netinf.jpg>
+Package pdftex.def Info: images/4_netinf.jpg  used on input line 233. on input 
+line 233.
+Package pdftex.def Info: Requested size: 151.7908pt x 95.87415pt on input line 
+233.
+<images/6_imdb.png, id=630, 748.7975pt x 583.17876pt>
+File: images/6_imdb.png Graphic file (type png)
+<use images/6_imdb.png>
+Package pdftex.def Info: images/6_imdb.png  used on input line 233. on input li
+ne 233.
+Package pdftex.def Info: Requested size: 151.7908pt x 118.21762pt on input line
+ 233.
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 233. on input
+ line 233.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+33.
+ [21
 
  <./images/4_netinf.jpg> <./images/6_imdb.png>]
 File: images/4_netinf.jpg Graphic file (type jpg)
 <use images/4_netinf.jpg>
-Package pdftex.def Info: images/4_netinf.jpg  used on input line 199. on input 
-line 199.
+Package pdftex.def Info: images/4_netinf.jpg  used on input line 233. on input 
+line 233.
 Package pdftex.def Info: Requested size: 151.7908pt x 95.87415pt on input line 
-199.
+233.
 File: images/6_imdb.png Graphic file (type png)
 <use images/6_imdb.png>
-Package pdftex.def Info: images/6_imdb.png  used on input line 199. on input li
-ne 199.
+Package pdftex.def Info: images/6_imdb.png  used on input line 233. on input li
+ne 233.
 Package pdftex.def Info: Requested size: 151.7908pt x 118.21762pt on input line
- 199.
+ 233.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 199. on input
- line 199.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-99.
- [20
+Package pdftex.def Info: images/cherubino.pdf  used on input line 233. on input
+ line 233.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+33.
+ [22
 
 ]
 File: images/4_netinf.jpg Graphic file (type jpg)
 <use images/4_netinf.jpg>
-Package pdftex.def Info: images/4_netinf.jpg  used on input line 199. on input 
-line 199.
+Package pdftex.def Info: images/4_netinf.jpg  used on input line 233. on input 
+line 233.
 Package pdftex.def Info: Requested size: 151.7908pt x 95.87415pt on input line 
-199.
+233.
 File: images/6_imdb.png Graphic file (type png)
 <use images/6_imdb.png>
-Package pdftex.def Info: images/6_imdb.png  used on input line 199. on input li
-ne 199.
+Package pdftex.def Info: images/6_imdb.png  used on input line 233. on input li
+ne 233.
 Package pdftex.def Info: Requested size: 151.7908pt x 118.21762pt on input line
- 199.
+ 233.
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 199. on input
- line 199.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-99.
- [21
+Package pdftex.def Info: images/cherubino.pdf  used on input line 233. on input
+ line 233.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+33.
+ [23
+
+]
+
+LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <10> not available
+(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 275.
+
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 275. on input
+ line 275.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+75.
+[24
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 275. on input
+ line 275.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+75.
+ [25
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 275. on input
+ line 275.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+75.
+ [26
 
 ])
 \openout2 = `./2_soluzioni.aux'.
 
-
-(./2_soluzioni.tex
+ (./2_soluzioni.tex
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
 Package pdftex.def Info: images/cherubino.pdf  used on input line 6. on input l
 ine 6.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 6
 .
- [22
+ [27
 
 
 
@@ -2424,7 +2479,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 43. on input
 line 43.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
 3.
- [23
+ [28
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
@@ -2433,7 +2488,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 43. on input
 line 43.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
 3.
- [24
+ [29
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
@@ -2442,7 +2497,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 43. on input
 line 43.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
 3.
- [25
+ [30
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
@@ -2451,17 +2506,17 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 43. on input
 line 43.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
 3.
- [26
+ [31
 
 ]
-<images/8_cc_graph.pdf, id=784, pagebox=cropbox, 94.89754pt x 114.81496pt>
+<images/8_cc_graph.pdf, id=926, pagebox=cropbox, 94.89754pt x 114.81496pt>
 File: images/8_cc_graph.pdf Graphic file (type pdf)
 <use images/8_cc_graph.pdf>
 Package pdftex.def Info: images/8_cc_graph.pdf  used on input line 89. on input
  line 89.
 Package pdftex.def Info: Requested size: 77.44342pt x 93.70387pt on input line 
 89.
-<images/8_cc_list.pdf, id=785, pagebox=cropbox, 109.1247pt x 166.02928pt>
+<images/8_cc_list.pdf, id=927, pagebox=cropbox, 109.1247pt x 166.02928pt>
 File: images/8_cc_list.pdf Graphic file (type pdf)
 <use images/8_cc_list.pdf>
 Package pdftex.def Info: images/8_cc_list.pdf  used on input line 89. on input 
@@ -2474,7 +2529,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 89. on input
 line 89.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 8
 9.
- [27
+ [32
 
  <./images/8_cc_graph.pdf> <./images/8_cc_list.pdf>]
 File: images/8_cc_graph.pdf Graphic file (type pdf)
@@ -2495,7 +2550,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 89. on input
 line 89.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 8
 9.
- [28
+ [33
 
 ]
 File: images/8_cc_graph.pdf Graphic file (type pdf)
@@ -2516,142 +2571,151 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 89. on input
 line 89.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 8
 9.
- [29
+ [34
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 150. on input
- line 150.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 155. on input
+ line 155.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-50.
- [30
-
-]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 150. on input
- line 150.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-50.
- [31
-
-]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 150. on input
- line 150.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-50.
- [32
-
-]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 150. on input
- line 150.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-50.
- [33
-
-]
-<images/13_sampl.pdf, id=983, pagebox=cropbox, 251.38818pt x 169.84554pt>
-File: images/13_sampl.pdf Graphic file (type pdf)
-<use images/13_sampl.pdf>
-Package pdftex.def Info: images/13_sampl.pdf  used on input line 167. on input 
-line 167.
-Package pdftex.def Info: Requested size: 172.09766pt x 116.27869pt on input lin
-e 167.
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 167
-.
-LaTeX Font Info:    No file OMSlmss.fd. on input line 167.
-
-
-LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 167.
-
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 167. on input
- line 167.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-67.
-[34
-
- <./images/13_sampl.pdf>]pdfTeX warning (ext4): destination with the same ident
-ifier (name{jaccard-sub}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.197 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{jaccard-sub}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.197 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{bray-sub}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.197 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{bray-sub}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.197 \end{frame}
-                 
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 197. on input
- line 197.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-97.
+55.
  [35
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 197. on input
- line 197.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 155. on input
+ line 155.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-97.
+55.
  [36
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 197. on input
- line 197.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 155. on input
+ line 155.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-97.
+55.
  [37
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 254. on input
- line 254.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
-54.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 155. on input
+ line 155.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
+55.
  [38
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 254. on input
- line 254.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
-54.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 155. on input
+ line 155.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
+55.
  [39
+
+]
+<images/13_sampl.pdf, id=1150, pagebox=cropbox, 251.38818pt x 169.84554pt>
+File: images/13_sampl.pdf Graphic file (type pdf)
+<use images/13_sampl.pdf>
+Package pdftex.def Info: images/13_sampl.pdf  used on input line 179. on input 
+line 179.
+Package pdftex.def Info: Requested size: 172.09766pt x 116.27869pt on input lin
+e 179.
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 179
+.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 179.
+
+
+LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 179.
+
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 179. on input
+ line 179.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
+79.
+[40
+
+ <./images/13_sampl.pdf>]pdfTeX warning (ext4): destination with the same ident
+ifier (name{jaccard-sub}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.209 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{jaccard-sub}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.209 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{bray-sub}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.209 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{bray-sub}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.209 \end{frame}
+                 
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 209. on input
+ line 209.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+09.
+ [41
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 254. on input
- line 254.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 209. on input
+ line 209.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
-54.
- [40
+09.
+ [42
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 209. on input
+ line 209.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+09.
+ [43
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 266. on input
+ line 266.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+66.
+ [44
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 266. on input
+ line 266.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+66.
+ [45
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 266. on input
+ line 266.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
+66.
+ [46
 
 ])
 \openout2 = `./3_risultati.aux'.
@@ -2663,7 +2727,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 6. on input l
 ine 6.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 6
 .
- [41
+ [47
 
 
 
@@ -2672,7 +2736,7 @@ Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 6
 LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <9> not available
 (Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 44.
 
-<images/3_color_coding.pdf, id=1204, pagebox=cropbox, 402.00188pt x 225.84375pt
+<images/3_color_coding.pdf, id=1373, pagebox=cropbox, 402.00188pt x 225.84375pt
 >
 File: images/3_color_coding.pdf Graphic file (type pdf)
 <use images/3_color_coding.pdf>
@@ -2686,7 +2750,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 44. on input
 line 44.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
 4.
-[42
+[48
 
  <./images/3_color_coding.pdf>]
 File: images/3_color_coding.pdf Graphic file (type pdf)
@@ -2701,7 +2765,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 44. on input
 line 44.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
 4.
- [43
+ [49
 
 ]
 File: images/3_color_coding.pdf Graphic file (type pdf)
@@ -2716,20 +2780,16 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 44. on input
 line 44.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 4
 4.
- [44
+ [50
 
 ]
-
-LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 72.
-
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
 Package pdftex.def Info: images/cherubino.pdf  used on input line 72. on input 
 line 72.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 7
 2.
-[45
+ [51
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
@@ -2738,93 +2798,67 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 121. on input
  line 121.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
 21.
- [46
-
-]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 163. on input
- line 163.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-63.
- [47
-
-]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 163. on input
- line 163.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-63.
- [48
-
-]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 163. on input
- line 163.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
-63.
- [49
-
-]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 235. on input
- line 235.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
-35.
- [50
-
-]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 235. on input
- line 235.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
-35.
- [51
-
-]
-File: images/cherubino.pdf Graphic file (type pdf)
-<use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 235. on input
- line 235.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
-35.
  [52
 
 ]
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 235. on input
- line 235.
-Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
-35.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 195. on input
+ line 195.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
+95.
  [53
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 195. on input
+ line 195.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
+95.
+ [54
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 195. on input
+ line 195.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
+95.
+ [55
+
+]
+File: images/cherubino.pdf Graphic file (type pdf)
+<use images/cherubino.pdf>
+Package pdftex.def Info: images/cherubino.pdf  used on input line 195. on input
+ line 195.
+Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 1
+95.
+ [56
 
 ])
 File: images/cherubino.pdf Graphic file (type pdf)
 <use images/cherubino.pdf>
-Package pdftex.def Info: images/cherubino.pdf  used on input line 71. on input 
-line 71.
+Package pdftex.def Info: images/cherubino.pdf  used on input line 70. on input 
+line 70.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 7
-1.
- [54
+0.
+
+[57
 
 
 ]
 \openout2 = `./4_extra.aux'.
 
  (./4_extra.tex
-<images/facebook.png, id=1565, 784.8522pt x 401.3394pt>
+<images/facebook.png, id=1653, 784.8522pt x 401.3394pt>
 File: images/facebook.png Graphic file (type png)
 <use images/facebook.png>
 Package pdftex.def Info: images/facebook.png  used on input line 26. on input l
 ine 26.
 Package pdftex.def Info: Requested size: 151.7908pt x 77.61479pt on input line 
 26.
-<images/2_kevin_bacon.png, id=1566, 481.3182pt x 276.5532pt>
+<images/2_kevin_bacon.png, id=1654, 481.3182pt x 276.5532pt>
 File: images/2_kevin_bacon.png Graphic file (type png)
 <use images/2_kevin_bacon.png>
 Package pdftex.def Info: images/2_kevin_bacon.png  used on input line 26. on in
@@ -2837,7 +2871,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 26. on input
 line 26.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
 6.
- [55
+ [58
 
 
  <./images/facebook.png (PNG copy)> <./images/2_kevin_bacon.png>]
@@ -2859,7 +2893,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 26. on input
 line 26.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
 6.
- [56
+ [59
 
 ]
 File: images/facebook.png Graphic file (type png)
@@ -2880,7 +2914,7 @@ Package pdftex.def Info: images/cherubino.pdf  used on input line 26. on input
 line 26.
 Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
 6.
- [57
+ [60
 
 ])
 \tf@nav=\write9
@@ -2892,13 +2926,12 @@ Package pdftex.def Info: Requested size: 55.79773pt x 56.9055pt on input line 2
 \tf@snm=\write11
 \openout11 = `presentazione.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
-
-(./presentazione.aux (./1_problema.aux) (./2_soluzioni.aux) (./3_risultati.aux)
-(./4_extra.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+ (./presentazione.aux (./1_problema.aux) (./2_soluzioni.aux) (./3_risultati.aux
+) (./4_extra.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `presentazione.out' has not changed.
 (rerunfilecheck)             Checksum: 8DC093E0850C423BBDD75C1B7F1A1D3E;197.
 
@@ -2910,16 +2943,16 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 37188 strings out of 492990
- 719201 string characters out of 6135004
- 831986 words of memory out of 5000000
- 39852 multiletter control sequences out of 15000+600000
+ 37202 strings out of 492990
+ 719408 string characters out of 6135004
+ 831987 words of memory out of 5000000
+ 39859 multiletter control sequences out of 15000+600000
  598607 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,17n,69p,10387b,673s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr
-/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
 lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
@@ -2929,19 +2962,20 @@ mi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lms
-s17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmsso9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on presentazione.pdf (57 pages, 4289614 bytes).
+share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss1
+2.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/font
+s/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso9.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmsy9.pfb>
+Output written on presentazione.pdf (60 pages, 4316063 bytes).
 PDF statistics:
- 1760 PDF objects out of 2073 (max. 8388607)
- 1627 compressed objects within 17 object streams
- 121 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1852 PDF objects out of 2073 (max. 8388607)
+ 1712 compressed objects within 18 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

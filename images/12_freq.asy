@@ -66,17 +66,28 @@ int[][] E = {
     {7, 8},
     {9, 11},
 
+    {1,2},
+    {1,9}
 };
 
 //MAP
 int[] mappa = { 0, 1, 2, 3, 4, 5 };
 // colori degli archi
 pen[]  colE = {
-    grey+1,
-//    red+1, red+1,
-//    green+1, green+1,
-//    purple+1, purple+1,
-//    orange+1, orange+1,
+    red+2,
+    red+1, 
+    green+1,
+    red+2, 
+    red+1,
+
+    purple+1, 
+    red+1,
+    red+1, 
+    purple+1,
+    green+1,
+
+    green+.75,
+    green+.75,
 };
 
 // label 
