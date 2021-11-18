@@ -1,3 +1,0 @@
-\select@language {italian}
-\select@language {italian}
-\beamer@sectionintoc {1}{Fine}{57}{3}{1}
